@@ -192,7 +192,7 @@ export default function PitchPage() {
             <div className="mt-8 p-4 rounded-xl bg-red-50 border border-red-100">
               <p className="text-sm text-red-600">
                 El comprador hace el 100% del trabajo. La plataforma no aprende nada.
-                Zero inteligencia. Zero personalización.
+                Cero inteligencia. Cero personalización.
               </p>
             </div>
           </div>
@@ -743,7 +743,7 @@ export default function PitchPage() {
           <Card icon="&#x1F4C9;" title="Índice de Negociabilidad" description="Probabilidad de que el vendedor acepte una oferta bajo el precio publicado. Calculado con data histórica." />
           <Card icon="&#x23F1;" title="Tiempo Estimado de Venta" description="Predicción basada en precio, barrio, tipo de propiedad y condiciones de mercado. Actualizado diariamente." />
           <Card icon="&#x1F3D7;" title="ROI de Remodelación" description="Sugerencias de mejoras con retorno estimado. Remodelar la cocina agregaría ~800 UF al valor." />
-          <Card icon="&#x1F4C8;" title="Simulación de Valorización" description="Proyección a 1, 3 y 5 años basada en tendencias del barrio, plusvalia histórica y factores macroeconómicos." />
+          <Card icon="&#x1F4C8;" title="Simulación de Valorización" description="Proyección a 1, 3 y 5 años basada en tendencias del barrio, plusvalía histórica y factores macroeconómicos." />
           <Card icon="&#x1F514;" title="Alertas Predictivas" description="Notificación antes de que una propiedad salga al mercado, basada en patrones históricos de venta en el barrio." />
           <Card icon="&#x1F3C6;" title="Ranking de Corredores" description="Score por barrio basado en ventas, tiempo de respuesta, reseñas y conversión. Transparencia total." />
           <Card icon="&#x1F4B0;" title="Costo de Vida por Barrio" description="Comparación automática de gastos comunes, contribuciones, servicios, supermercados y transporte." />
@@ -829,7 +829,7 @@ export default function PitchPage() {
 
       {/* ──── DESAFIOS ──── */}
       <Section dark>
-        <Badge>Desafios y soluciónes</Badge>
+        <Badge>Desafíos y soluciones</Badge>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-16 max-w-3xl">
           Sabemos dónde están los riesgos.
           <br />
@@ -856,7 +856,7 @@ export default function PitchPage() {
             },
             {
               challenge: "Confianza del comprador en preofertas",
-              solution: "Las preofertas son privadas y no vinculantes. El sistema solo notifica cuando hay match. Zero riesgo para el comprador.",
+              solution: "Las preofertas son privadas y no vinculantes. El sistema solo notifica cuando hay match. Cero riesgo para el comprador.",
             },
             {
               challenge: "Competencia de portales establecidos",
