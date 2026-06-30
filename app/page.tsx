@@ -103,7 +103,7 @@ export default function PitchPage() {
           <span className={`text-xl font-bold tracking-tight ${scrolled ? "text-zinc-900" : "text-white"}`}>nido.</span>
           <div className={`hidden md:flex items-center gap-8 text-sm ${scrolled ? "text-zinc-500" : "text-zinc-400"}`}>
             <a href="#problema" className="hover:text-zinc-900 transition-colors">Problema</a>
-            <a href="#solucion" className="hover:text-zinc-900 transition-colors">Solucion</a>
+            <a href="#solucion" className="hover:text-zinc-900 transition-colors">Solución</a>
             <a href="#producto" className="hover:text-zinc-900 transition-colors">Producto</a>
             <a href="#mercado" className="hover:text-zinc-900 transition-colors">Mercado</a>
             <a href="#modelo" className="hover:text-zinc-900 transition-colors">Modelo</a>
@@ -119,7 +119,7 @@ export default function PitchPage() {
         <div className="relative max-w-5xl mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 rounded-full bg-zinc-800/60 border border-zinc-700/50 px-4 py-1.5 text-xs text-zinc-300 mb-8 backdrop-blur-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            PropTech de Nueva Generacion — Chile 2026
+            PropTech de Nueva Generación — Chile 2026
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[0.95] mb-8">
             No buscas
@@ -139,7 +139,7 @@ export default function PitchPage() {
               href="#problema"
               className="inline-flex items-center justify-center rounded-full bg-white text-zinc-900 px-8 py-3.5 text-sm font-medium hover:bg-zinc-100 transition-colors"
             >
-              Ver la vision completa
+              Ver la visión completa
             </a>
             <a
               href="#producto"
@@ -160,11 +160,11 @@ export default function PitchPage() {
       <Section id="problema">
         <Badge>El problema</Badge>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 max-w-3xl">
-          El mercado inmobiliario lleva 20 anos sin cambiar.
+          El mercado inmobiliario lleva 20 años sin cambiar.
         </h2>
         <p className="text-lg text-zinc-500 max-w-2xl mb-16 leading-relaxed">
           El modelo actual obliga al comprador a hacer todo el trabajo: buscar, filtrar, comparar, agendar, negociar.
-          Los portales son catalogos estaticos. Nadie conecta oferta con demanda de forma inteligente.
+          Los portales son catálogos estáticos. Nadie conecta oferta con demanda de forma inteligente.
         </p>
 
         <div className="grid md:grid-cols-2 gap-16 items-start">
@@ -176,7 +176,7 @@ export default function PitchPage() {
               {[
                 "Corredor publica propiedad",
                 "Portal la muestra en un listado",
-                "Comprador busca con filtros genericos",
+                "Comprador busca con filtros genéricos",
                 "Compara manualmente, uno a uno",
                 "Agenda visitas sin contexto",
                 "Decide sin datos reales",
@@ -192,7 +192,7 @@ export default function PitchPage() {
             <div className="mt-8 p-4 rounded-xl bg-red-50 border border-red-100">
               <p className="text-sm text-red-600">
                 El comprador hace el 100% del trabajo. La plataforma no aprende nada.
-                Zero inteligencia. Zero personalizacion.
+                Zero inteligencia. Zero personalización.
               </p>
             </div>
           </div>
@@ -204,11 +204,11 @@ export default function PitchPage() {
             <div className="space-y-4">
               {[
                 "Comprador crea su perfil en 2 minutos",
-                "IA aprende que busca, como vive, que valora",
-                "Propiedades compatibles aparecen automaticamente",
-                "Cada interaccion mejora las recomendaciones",
+                "IA aprende qué busca, cómo vive, qué valora",
+                "Propiedades compatibles aparecen automáticamente",
+                "Cada interacción mejora las recomendaciones",
                 "Match bidireccional: comprador - vendedor",
-                "Decision con datos, comparaciones e inteligencia",
+                "Decisión con datos, comparaciones e inteligencia",
               ].map((step, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <span className="flex-shrink-0 w-7 h-7 rounded-full bg-emerald-50 text-emerald-500 text-xs font-bold flex items-center justify-center mt-0.5">
@@ -220,7 +220,7 @@ export default function PitchPage() {
             </div>
             <div className="mt-8 p-4 rounded-xl bg-emerald-50 border border-emerald-100">
               <p className="text-sm text-emerald-700">
-                La plataforma trabaja para ti. Mientras mas la usas, mejor te conoce.
+                La plataforma trabaja para ti. Mientras más la usas, mejor te conoce.
                 Como Spotify, pero para propiedades.
               </p>
             </div>
@@ -239,7 +239,7 @@ export default function PitchPage() {
           </h2>
           <p className="text-lg text-zinc-400 max-w-2xl mx-auto leading-relaxed">
             Los portales muestran propiedades y esperan que alguien haga clic.
-            Nido entiende quien eres, como vives y que necesitas.
+            Nido entiende quién eres, cómo vives y qué necesitas.
             Luego conecta oferta con demanda, como Uber conecta conductores con pasajeros.
           </p>
         </div>
@@ -247,7 +247,7 @@ export default function PitchPage() {
 
       {/* ──── SOLUCION ──── */}
       <Section id="solucion">
-        <Badge>La solucion</Badge>
+        <Badge>La solución</Badge>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 max-w-3xl">
           Un sistema inteligente que conecta oferta y demanda.
         </h2>
@@ -260,22 +260,22 @@ export default function PitchPage() {
           <Card
             icon="&#x1F3E0;"
             title="Experiencia Airbnb"
-            description="Cada propiedad se presenta como una historia, no como una ficha tecnica. Fotografia inmersiva, narrativa del barrio, emocionalidad."
+            description="Cada propiedad se presenta como una historia, no como una ficha técnica. Fotografía inmersiva, narrativa del barrio, emocionalidad."
           />
           <Card
             icon="&#x1F504;"
             title="Matching Uber"
-            description="La plataforma conecta comprador y vendedor. No espera. Matchea en tiempo real segun compatibilidad, precio y timing."
+            description="La plataforma conecta comprador y vendedor. No espera. Matchea en tiempo real según compatibilidad, precio y timing."
           />
           <Card
             icon="&#x1F3B5;"
             title="Recomendaciones Spotify"
-            description="Cada interaccion entrena un modelo. Cuanto mas usas Nido, mejor te conoce. Descubres propiedades que no sabias que querias."
+            description="Cada interacción entrena un modelo. Cuanto más usas Nido, mejor te conoce. Descubres propiedades que no sabías que querías."
           />
           <Card
             icon="&#x1F4CA;"
             title="Inteligencia Zillow"
-            description="Estimaciones de valor por IA, historial de precios, comparables automaticos, tendencias de barrio, indices de mercado."
+            description="Estimaciones de valor por IA, historial de precios, comparables automáticos, tendencias de barrio, índices de mercado."
           />
         </div>
       </Section>
@@ -286,7 +286,7 @@ export default function PitchPage() {
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-16 max-w-3xl">
           Primero te conocemos.
           <br />
-          <span className="text-zinc-500">Despues te mostramos.</span>
+          <span className="text-zinc-500">Después te mostramos.</span>
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -297,17 +297,17 @@ export default function PitchPage() {
             <div className="grid grid-cols-2 gap-4">
               {[
                 { q: "Presupuesto", a: "8.000 — 15.000 UF" },
-                { q: "Barrios favoritos", a: "San Damian, Lo Curro" },
+                { q: "Barrios favoritos", a: "San Damián, Lo Curro" },
                 { q: "Tipo", a: "Casa" },
                 { q: "Dormitorios", a: "4+" },
                 { q: "Hijos", a: "2 en edad escolar" },
-                { q: "Home office", a: "Si, necesito escritorio" },
+                { q: "Home office", a: "Sí, necesito escritorio" },
                 { q: "Mascotas", a: "2 perros grandes" },
-                { q: "Estacionamientos", a: "Minimo 2" },
-                { q: "Jardin", a: "Indispensable" },
+                { q: "Estacionamientos", a: "Mínimo 2" },
+                { q: "Jardín", a: "Indispensable" },
                 { q: "Tiempo al trabajo", a: "Max 30 min" },
                 { q: "Colegios cerca", a: "Muy importante" },
-                { q: "Lo mas importante", a: "Tranquilidad y verde" },
+                { q: "Lo más importante", a: "Tranquilidad y verde" },
               ].map((item, i) => (
                 <div key={i} className="rounded-xl bg-zinc-800/50 border border-zinc-700/50 p-4">
                   <div className="text-xs text-zinc-500 mb-1">{item.q}</div>
@@ -325,13 +325,13 @@ export default function PitchPage() {
               <div className="space-y-4">
                 <div className="rounded-xl bg-zinc-800/50 p-4 border-l-2 border-emerald-400">
                   <p className="text-sm text-zinc-300">
-                    &ldquo;Buscas una casa familiar con jardin en barrios tranquilos del sector oriente.
-                    Priorizas colegios y areas verdes sobre conectividad.&rdquo;
+                    &ldquo;Buscas una casa familiar con jardín en barrios tranquilos del sector oriente.
+                    Priorizas colegios y áreas verdes sobre conectividad.&rdquo;
                   </p>
                 </div>
                 <div className="rounded-xl bg-zinc-800/50 p-4 border-l-2 border-emerald-400">
                   <p className="text-sm text-zinc-300">
-                    &ldquo;Tu rango de precio permite acceder al 73% de las propiedades en San Damian
+                    &ldquo;Tu rango de precio permite acceder al 73% de las propiedades en San Damián
                     y al 45% en Lo Curro.&rdquo;
                   </p>
                 </div>
@@ -374,9 +374,9 @@ export default function PitchPage() {
               label: "Alta compatibilidad contigo",
               tag: "IA",
               items: [
-                { name: "Casa en San Damian", price: "12.400 UF", match: "96%", sqm: "220 m2", beds: "4", color: "from-zinc-100 to-zinc-200" },
+                { name: "Casa en San Damián", price: "12.400 UF", match: "96%", sqm: "220 m2", beds: "4", color: "from-zinc-100 to-zinc-200" },
                 { name: "Casa en Lo Curro", price: "14.800 UF", match: "93%", sqm: "280 m2", beds: "5", color: "from-stone-100 to-stone-200" },
-                { name: "Casa en El Arrayan", price: "11.200 UF", match: "91%", sqm: "200 m2", beds: "4", color: "from-neutral-100 to-neutral-200" },
+                { name: "Casa en El Arrayán", price: "11.200 UF", match: "91%", sqm: "200 m2", beds: "4", color: "from-neutral-100 to-neutral-200" },
               ],
             },
             {
@@ -429,19 +429,19 @@ export default function PitchPage() {
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 max-w-3xl">
           Swipe para descubrir.
           <br />
-          <span className="text-zinc-500">Cada accion entrena la IA.</span>
+          <span className="text-zinc-500">Cada acción entrena la IA.</span>
         </h2>
         <p className="text-lg text-zinc-400 max-w-2xl mb-16 leading-relaxed">
-          Inspirado en Tinder. Cada tarjeta es una propiedad. Cada interaccion alimenta el algoritmo.
-          Mientras mas usas Nido, mejores recomendaciones recibes.
+          Inspirado en Tinder. Cada tarjeta es una propiedad. Cada interacción alimenta el algoritmo.
+          Mientras más usas Nido, mejores recomendaciones recibes.
         </p>
 
         <div className="flex justify-center mb-12">
           <div className="w-full max-w-sm rounded-3xl bg-zinc-900 border border-zinc-800 overflow-hidden">
             <div className="h-72 bg-gradient-to-br from-zinc-800 to-zinc-700 relative">
               <div className="absolute bottom-4 left-4 right-4">
-                <h3 className="text-xl font-bold text-white">Casa en San Damian</h3>
-                <p className="text-sm text-zinc-400 mt-1">12.400 UF · 220 m2 · 4 dorm · Jardin</p>
+                <h3 className="text-xl font-bold text-white">Casa en San Damián</h3>
+                <p className="text-sm text-zinc-400 mt-1">12.400 UF · 220 m2 · 4 dorm · Jardín</p>
                 <div className="mt-2 flex gap-2">
                   <span className="text-xs bg-emerald-500/20 text-emerald-400 rounded-full px-2.5 py-0.5">96% compatible</span>
                   <span className="text-xs bg-amber-500/20 text-amber-400 rounded-full px-2.5 py-0.5">8% bajo mercado</span>
@@ -452,7 +452,7 @@ export default function PitchPage() {
               <div className="grid grid-cols-5 gap-3 text-center">
                 {[
                   { icon: "\uD83D\uDC4E", label: "No", color: "text-red-400" },
-                  { icon: "\uD83E\uDD14", label: "Despues", color: "text-zinc-400" },
+                  { icon: "\uD83E\uDD14", label: "Después", color: "text-zinc-400" },
                   { icon: "\uD83D\uDCBE", label: "Guardar", color: "text-blue-400" },
                   { icon: "\u2B50", label: "Favorito", color: "text-amber-400" },
                   { icon: "\u2764\uFE0F", label: "Interesa", color: "text-emerald-400" },
@@ -472,15 +472,15 @@ export default function PitchPage() {
 
         <div className="max-w-2xl mx-auto grid md:grid-cols-2 gap-4">
           <div className="rounded-2xl bg-zinc-900 border border-zinc-800 p-6">
-            <div className="text-sm text-zinc-500 mb-2">Despues de 30 interacciones, la IA dice:</div>
+            <div className="text-sm text-zinc-500 mb-2">Después de 30 interacciones, la IA dice:</div>
             <p className="text-sm text-zinc-300 italic">
-              &ldquo;Detectamos que prefieres casas mediterraneas con jardin.
+              &ldquo;Detectamos que prefieres casas mediterráneas con jardín.
               Priorizas colegios sobre conectividad.
-              Te gustan barrios tranquilos con areas verdes.&rdquo;
+              Te gustan barrios tranquilos con áreas verdes.&rdquo;
             </p>
           </div>
           <div className="rounded-2xl bg-zinc-900 border border-zinc-800 p-6">
-            <div className="text-sm text-zinc-500 mb-2">La IA tambien sugiere:</div>
+            <div className="text-sm text-zinc-500 mb-2">La IA también sugiere:</div>
             <p className="text-sm text-zinc-300 italic">
               &ldquo;Hay 3 propiedades en Lo Curro que no has visto y tienen 90%+
               de compatibilidad. Dos bajaron de precio esta semana.&rdquo;
@@ -493,12 +493,12 @@ export default function PitchPage() {
       <Section>
         <Badge>Match inmobiliario</Badge>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 max-w-3xl">
-          El corazon del producto.
+          El corazón del producto.
           <br />
           Preofertas + Match bidireccional.
         </h2>
         <p className="text-lg text-zinc-500 max-w-2xl mb-16 leading-relaxed">
-          El comprador dice hasta cuanto pagaria. El vendedor define su rango aceptable.
+          El comprador dice hasta cuánto pagaría. El vendedor define su rango aceptable.
           Cuando se cruzan: Match. Ambos son notificados. Sin intermediarios innecesarios.
         </p>
 
@@ -528,9 +528,9 @@ export default function PitchPage() {
           </h3>
           <div className="grid md:grid-cols-4 gap-6">
             {[
-              { n: "43", label: "familias buscan en San Damian", sub: "15.000 — 18.000 UF" },
+              { n: "43", label: "familias buscan en San Damián", sub: "15.000 — 18.000 UF" },
               { n: "12", label: "propiedades activas", sub: "Baja oferta" },
-              { n: "89%", label: "probabilidad de venta", sub: "en menos de 45 dias" },
+              { n: "89%", label: "probabilidad de venta", sub: "en menos de 45 días" },
               { n: "3.2x", label: "demanda vs oferta", sub: "Mercado de vendedores" },
             ].map((stat, i) => (
               <div key={i} className="text-center">
@@ -547,27 +547,27 @@ export default function PitchPage() {
       <Section dark>
         <Badge>Inteligencia de valor</Badge>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 max-w-3xl">
-          Estimacion de valor con IA.
+          Estimación de valor con IA.
           <br />
           <span className="text-zinc-500">Lo mejor de Zillow, adaptado a Chile.</span>
         </h2>
         <p className="text-lg text-zinc-400 max-w-2xl mb-16 leading-relaxed">
-          Cada propiedad tiene una estimacion inteligente basada en comparables, historial y tendencias del barrio.
-          No es un numero magico: la IA explica por que.
+          Cada propiedad tiene una estimación inteligente basada en comparables, historial y tendencias del barrio.
+          No es un número mágico: la IA explica por qué.
         </p>
 
         <div className="rounded-3xl bg-zinc-900 border border-zinc-800 p-10">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="font-semibold text-white mb-6">Casa en San Damian — 220 m2</h3>
+              <h3 className="font-semibold text-white mb-6">Casa en San Damián — 220 m2</h3>
               <div className="space-y-4">
                 {[
                   { label: "Valor publicado", value: "12.400 UF", color: "text-white" },
-                  { label: "Estimacion IA", value: "13.100 UF", color: "text-emerald-400" },
+                  { label: "Estimación IA", value: "13.100 UF", color: "text-emerald-400" },
                   { label: "Rango de confianza", value: "12.400 — 13.800 UF", color: "text-zinc-300" },
                   { label: "UF/m2 barrio", value: "58.2 UF/m2", color: "text-zinc-300" },
                   { label: "UF/m2 propiedad", value: "56.4 UF/m2", color: "text-zinc-300" },
-                  { label: "Plusvalia 12 meses", value: "+6.8%", color: "text-emerald-400" },
+                  { label: "Plusvalía 12 meses", value: "+6.8%", color: "text-emerald-400" },
                 ].map((row, i) => (
                   <div key={i} className="flex justify-between items-center py-3 border-b border-zinc-800">
                     <span className={i === 1 ? "text-emerald-400" : "text-zinc-400"}>{row.label}</span>
@@ -581,11 +581,11 @@ export default function PitchPage() {
               <div className="space-y-3">
                 {[
                   { icon: "&#x1F4C9;", text: "Publicada 8% bajo el valor estimado. Oportunidad." },
-                  { icon: "&#x1F4CA;", text: "25 m2 mas grande que el promedio del barrio." },
+                  { icon: "&#x1F4CA;", text: "25 m2 más grande que el promedio del barrio." },
                   { icon: "&#x1F3EB;", text: "3 colegios privados en radio de 1 km." },
-                  { icon: "&#x1F333;", text: "Indice de areas verdes superior al promedio." },
+                  { icon: "&#x1F333;", text: "Índice de áreas verdes superior al promedio." },
                   { icon: "&#x1F4C8;", text: "El barrio ha subido 6.8% en 12 meses." },
-                  { icon: "&#x23F1;", text: "Tiempo estimado de venta: 32 dias." },
+                  { icon: "&#x23F1;", text: "Tiempo estimado de venta: 32 días." },
                   { icon: "&#x1F525;", text: "Nivel de oportunidad: Alto." },
                 ].map((insight, i) => (
                   <div key={i} className="flex items-start gap-3 p-3 rounded-xl bg-zinc-800/50">
@@ -608,7 +608,7 @@ export default function PitchPage() {
           Compara barrios, no solo propiedades.
         </h2>
         <p className="text-lg text-zinc-500 max-w-2xl mb-16 leading-relaxed">
-          Datos reales, actualizados, visuales. Plusvalia, seguridad, colegios, conectividad, perfil de residentes.
+          Datos reales, actualizados, visuales. Plusvalía, seguridad, colegios, conectividad, perfil de residentes.
         </p>
 
         <div className="rounded-3xl border border-zinc-200 overflow-hidden">
@@ -620,7 +620,7 @@ export default function PitchPage() {
               <div className="font-semibold text-sm text-zinc-400">Indicador</div>
             </div>
             <div className="p-4 text-center">
-              <div className="font-bold">San Damian</div>
+              <div className="font-bold">San Damián</div>
             </div>
             <div className="p-4 text-center">
               <div className="font-bold">La Dehesa</div>
@@ -629,14 +629,14 @@ export default function PitchPage() {
           {[
             { label: "Precio promedio", v1: "13.500 UF", v2: "22.000 UF" },
             { label: "UF/m2", v1: "58 UF", v2: "52 UF" },
-            { label: "Plusvalia 12m", v1: "+6.8%", v2: "+4.2%" },
-            { label: "Tiempo de venta", v1: "38 dias", v2: "62 dias" },
+            { label: "Plusvalía 12m", v1: "+6.8%", v2: "+4.2%" },
+            { label: "Tiempo de venta", v1: "38 días", v2: "62 días" },
             { label: "Colegios (1 km)", v1: "5", v2: "3" },
-            { label: "Areas verdes", v1: "Alto", v2: "Muy alto" },
+            { label: "Áreas verdes", v1: "Alto", v2: "Muy alto" },
             { label: "Conectividad", v1: "Excelente", v2: "Media" },
             { label: "Seguridad", v1: "Alta", v2: "Alta" },
             { label: "Walkability", v1: "8.2 / 10", v2: "5.6 / 10" },
-            { label: "Perfil principal", v1: "Familias jovenes", v2: "Familias consolidadas" },
+            { label: "Perfil principal", v1: "Familias jóvenes", v2: "Familias consolidadas" },
             { label: "Demanda activa", v1: "43 compradores", v2: "28 compradores" },
             { label: "Rentabilidad arriendo", v1: "4.8%", v2: "3.9%" },
           ].map((row, i) => (
@@ -663,7 +663,7 @@ export default function PitchPage() {
           <span className="text-zinc-500">Tres tipos de usuario.</span>
         </h2>
         <p className="text-lg text-zinc-400 max-w-2xl mb-16 leading-relaxed">
-          Cada usuario ve lo que necesita. Datos relevantes, metricas accionables, recomendaciones de IA.
+          Cada usuario ve lo que necesita. Datos relevantes, métricas accionables, recomendaciones de IA.
         </p>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -677,9 +677,9 @@ export default function PitchPage() {
                 "Favoritos y comparaciones",
                 "Preofertas activas",
                 "Alertas de precio y mercado",
-                "Simulacion hipotecaria",
+                "Simulación hipotecaria",
                 "Historial de propiedades vistas",
-                "Evolucion del mercado",
+                "Evolución del mercado",
               ],
             },
             {
@@ -693,7 +693,7 @@ export default function PitchPage() {
                 "Precio recomendado por IA",
                 "Probabilidad de venta",
                 "Mapa de demanda del barrio",
-                "Comparables automaticos",
+                "Comparables automáticos",
               ],
             },
             {
@@ -706,7 +706,7 @@ export default function PitchPage() {
                 "Ranking vs otros corredores",
                 "IA recomienda ajustes de precio",
                 "IA sugiere barrios para captar",
-                "Leads y conversion",
+                "Leads y conversión",
                 "Captaciones sugeridas por IA",
               ],
             },
@@ -729,24 +729,24 @@ export default function PitchPage() {
 
       {/* ──── INNOVACION ──── */}
       <Section>
-        <Badge>Funcionalidades unicas</Badge>
+        <Badge>Funcionalidades únicas</Badge>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 max-w-3xl">
-          Lo que no existe en ningun portal hoy.
+          Lo que no existe en ningún portal hoy.
         </h2>
         <p className="text-lg text-zinc-500 max-w-2xl mb-16 leading-relaxed">
-          Ventajas competitivas dificiles de copiar. Cada una genera efecto de red y data propietaria.
+          Ventajas competitivas difíciles de copiar. Cada una genera efecto de red y data propietaria.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Card icon="&#x1F5FA;" title="Demand Intelligence" description="Mapas de calor de demanda en tiempo real por barrio. Los corredores ven exactamente donde hay compradores y que buscan." />
+          <Card icon="&#x1F5FA;" title="Demand Intelligence" description="Mapas de calor de demanda en tiempo real por barrio. Los corredores ven exactamente dónde hay compradores y qué buscan." />
           <Card icon="&#x1F3AF;" title="Score de Compatibilidad" description="Puntaje 0-100 entre comprador y propiedad. Basado en perfil, historial e interacciones. Mejora con el uso." />
-          <Card icon="&#x1F4C9;" title="Indice de Negociabilidad" description="Probabilidad de que el vendedor acepte una oferta bajo el precio publicado. Calculado con data historica." />
-          <Card icon="&#x23F1;" title="Tiempo Estimado de Venta" description="Prediccion basada en precio, barrio, tipo de propiedad y condiciones de mercado. Actualizado diariamente." />
-          <Card icon="&#x1F3D7;" title="ROI de Remodelacion" description="Sugerencias de mejoras con retorno estimado. Remodelar la cocina agregaria ~800 UF al valor." />
-          <Card icon="&#x1F4C8;" title="Simulacion de Valorizacion" description="Proyeccion a 1, 3 y 5 anos basada en tendencias del barrio, plusvalia historica y factores macroeconomicos." />
-          <Card icon="&#x1F514;" title="Alertas Predictivas" description="Notificacion antes de que una propiedad salga al mercado, basada en patrones historicos de venta en el barrio." />
-          <Card icon="&#x1F3C6;" title="Ranking de Corredores" description="Score por barrio basado en ventas, tiempo de respuesta, resenas y conversion. Transparencia total." />
-          <Card icon="&#x1F4B0;" title="Costo de Vida por Barrio" description="Comparacion automatica de gastos comunes, contribuciones, servicios, supermercados y transporte." />
+          <Card icon="&#x1F4C9;" title="Índice de Negociabilidad" description="Probabilidad de que el vendedor acepte una oferta bajo el precio publicado. Calculado con data histórica." />
+          <Card icon="&#x23F1;" title="Tiempo Estimado de Venta" description="Predicción basada en precio, barrio, tipo de propiedad y condiciones de mercado. Actualizado diariamente." />
+          <Card icon="&#x1F3D7;" title="ROI de Remodelación" description="Sugerencias de mejoras con retorno estimado. Remodelar la cocina agregaría ~800 UF al valor." />
+          <Card icon="&#x1F4C8;" title="Simulación de Valorización" description="Proyección a 1, 3 y 5 años basada en tendencias del barrio, plusvalia histórica y factores macroeconómicos." />
+          <Card icon="&#x1F514;" title="Alertas Predictivas" description="Notificación antes de que una propiedad salga al mercado, basada en patrones históricos de venta en el barrio." />
+          <Card icon="&#x1F3C6;" title="Ranking de Corredores" description="Score por barrio basado en ventas, tiempo de respuesta, reseñas y conversión. Transparencia total." />
+          <Card icon="&#x1F4B0;" title="Costo de Vida por Barrio" description="Comparación automática de gastos comunes, contribuciones, servicios, supermercados y transporte." />
         </div>
       </Section>
 
@@ -756,14 +756,14 @@ export default function PitchPage() {
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-16 max-w-3xl">
           Sector oriente de Santiago.
           <br />
-          <span className="text-zinc-500">El mercado mas grande de Chile.</span>
+          <span className="text-zinc-500">El mercado más grande de Chile.</span>
         </h2>
 
         <div className="grid md:grid-cols-4 gap-6 mb-16">
           {[
             { n: "USD 45B+", label: "Valor estimado del stock inmobiliario sector oriente" },
             { n: "12", label: "Barrios premium en el foco inicial del MVP" },
-            { n: "2.800+", label: "Propiedades activas en sector oriente hoy" },
+            { n: "18.000+", label: "Propiedades activas en sector oriente hoy" },
             { n: "0", label: "Plataformas con matching inteligente en Chile" },
           ].map((stat, i) => (
             <div key={i} className="text-center rounded-2xl bg-zinc-900 border border-zinc-800 p-8">
@@ -775,9 +775,9 @@ export default function PitchPage() {
 
         <div className="flex flex-wrap gap-3 justify-center">
           {[
-            "El Golf", "San Damian", "Sta Maria de Manquehue", "La Dehesa",
-            "Los Dominicos", "Estoril", "San Carlos de Apoquindo", "El Arrayan",
-            "Lo Curro", "Jardin del Este", "Ciudad del Nino", "Las Brisas de Chicureo",
+            "El Golf", "San Damián", "Sta María de Manquehue", "La Dehesa",
+            "Los Dominicos", "Estoril", "San Carlos de Apoquindo", "El Arrayán",
+            "Lo Curro", "Jardín del Este", "Ciudad del Niño", "Las Brisas de Chicureo",
           ].map((barrio, i) => (
             <span
               key={i}
@@ -795,13 +795,13 @@ export default function PitchPage() {
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-16 max-w-3xl">
           Tres fuentes de ingreso.
           <br />
-          Margen alto desde dia uno.
+          Margen alto desde día uno.
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-2xl border-2 border-zinc-200 p-8">
             <div className="text-xs font-semibold tracking-widest uppercase text-zinc-400 mb-4">Revenue 1</div>
-            <h3 className="text-xl font-bold mb-2">Suscripcion Corredor</h3>
+            <h3 className="text-xl font-bold mb-2">Suscripción Corredor</h3>
             <div className="text-3xl font-bold mb-4">3 — 8 UF<span className="text-base font-normal text-zinc-400">/mes</span></div>
             <p className="text-sm text-zinc-500">
               Acceso a Demand Intelligence, analytics premium, captaciones sugeridas, leads calificados y dashboard avanzado.
@@ -809,10 +809,10 @@ export default function PitchPage() {
           </div>
           <div className="rounded-2xl border-2 border-zinc-900 bg-zinc-950 text-white p-8">
             <div className="text-xs font-semibold tracking-widest uppercase text-zinc-500 mb-4">Revenue 2</div>
-            <h3 className="text-xl font-bold mb-2">Comision por Match</h3>
+            <h3 className="text-xl font-bold mb-2">Comisión por Match</h3>
             <div className="text-3xl font-bold mb-4">0.5%<span className="text-base font-normal text-zinc-400"> del cierre</span></div>
             <p className="text-sm text-zinc-400">
-              Fee de exito cuando una operacion se cierra a traves de la plataforma.
+              Fee de éxito cuando una operación se cierra a través de la plataforma.
               Solo cobra cuando genera valor.
             </p>
           </div>
@@ -821,7 +821,7 @@ export default function PitchPage() {
             <h3 className="text-xl font-bold mb-2">Data y Analytics</h3>
             <div className="text-3xl font-bold mb-4">API<span className="text-base font-normal text-zinc-400"> + reportes</span></div>
             <p className="text-sm text-zinc-500">
-              Venta de data anonimizada de demanda y tendencias a inmobiliarias, bancos, tasadores y fondos de inversion.
+              Venta de data anonimizada de demanda y tendencias a inmobiliarias, bancos, tasadores y fondos de inversión.
             </p>
           </div>
         </div>
@@ -829,30 +829,30 @@ export default function PitchPage() {
 
       {/* ──── DESAFIOS ──── */}
       <Section dark>
-        <Badge>Desafios y soluciones</Badge>
+        <Badge>Desafios y soluciónes</Badge>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-16 max-w-3xl">
-          Sabemos donde estan los riesgos.
+          Sabemos dónde están los riesgos.
           <br />
-          <span className="text-zinc-500">Y como resolverlos.</span>
+          <span className="text-zinc-500">Y cómo resolverlos.</span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6">
           {[
             {
               challenge: "Chicken-and-egg: sin propiedades no hay compradores",
-              solution: "Empezar con scraping de portales existentes (data publica). Los compradores llegan por la experiencia, los corredores por la demanda visible.",
+              solution: "Empezar con scraping de portales existentes (data pública). Los compradores llegan por la experiencia, los corredores por la demanda visible.",
             },
             {
-              challenge: "Estimacion de valor sin datos de cierre",
-              solution: "Usar precios de publicacion + historial + comparables + data de tasaciones bancarias. Transparentar el rango de confianza.",
+              challenge: "Estimación de valor sin datos de cierre",
+              solution: "Usar precios de publicación + historial + comparables + data de tasaciones bancarias. Transparentar el rango de confianza.",
             },
             {
-              challenge: "Adopcion de corredores tradicionales",
-              solution: "Demand Intelligence es el gancho. Mostrarles compradores activos en sus barrios. Gratis al inicio, monetizar despues.",
+              challenge: "Adopción de corredores tradicionales",
+              solution: "Demand Intelligence es el gancho. Mostrarles compradores activos en sus barrios. Gratis al inicio, monetizar después.",
             },
             {
               challenge: "Efecto de red: lleva tiempo construir",
-              solution: "Foco en 12 barrios. Densidad antes que cobertura. Mejor ser imprescindible en San Damian que mediocre en todo Santiago.",
+              solution: "Foco en 12 barrios. Densidad antes que cobertura. Mejor ser imprescindible en San Damián que mediocre en todo Santiago.",
             },
             {
               challenge: "Confianza del comprador en preofertas",
@@ -860,14 +860,14 @@ export default function PitchPage() {
             },
             {
               challenge: "Competencia de portales establecidos",
-              solution: "Los portales son catalogos. Nido es inteligencia. Diferente categoria. No competimos por listings, competimos por experiencia.",
+              solution: "Los portales son catálogos. Nido es inteligencia. Diferente categoría. No competimos por listings, competimos por experiencia.",
             },
             {
-              challenge: "Regulacion y privacidad de datos",
-              solution: "Toda la data de demanda es agregada y anonimizada. Cumplimiento total con normativa chilena de proteccion de datos.",
+              challenge: "Regulación y privacidad de datos",
+              solution: "Toda la data de demanda es agregada y anonimizada. Cumplimiento total con normativa chilena de protección de datos.",
             },
             {
-              challenge: "Monetizacion temprana vs crecimiento",
+              challenge: "Monetización temprana vs crecimiento",
               solution: "Compradores: siempre gratis. Corredores: freemium con upgrade a premium. La data es el moat, no el paywall.",
             },
           ].map((item, i) => (
@@ -889,7 +889,7 @@ export default function PitchPage() {
       <Section id="roadmap">
         <Badge>Roadmap</Badge>
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-16 max-w-3xl">
-          De MVP a lider del mercado.
+          De MVP a líder del mercado.
         </h2>
 
         <div className="grid md:grid-cols-4 gap-6">
@@ -929,7 +929,7 @@ export default function PitchPage() {
                 "Analytics premium",
                 "Comparador de barrios",
                 "IA de descubrimiento",
-                "Estimacion de valor v2",
+                "Estimación de valor v2",
               ],
               active: false,
             },
@@ -941,8 +941,8 @@ export default function PitchPage() {
                 "Toda la RM",
                 "API de data",
                 "App mobile",
-                "Monetizacion corredores",
-                "Preparar expansion LATAM",
+                "Monetización corredores",
+                "Preparar expansión LATAM",
               ],
               active: false,
             },
@@ -980,15 +980,15 @@ export default function PitchPage() {
           <h2 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
             El mercado inmobiliario
             <br />
-            necesita un nuevo estandar.
+            necesita un nuevo estándar.
           </h2>
           <p className="text-lg text-zinc-400 mb-4 leading-relaxed">
             nido. no es otro portal.
             <br />
-            Es la plataforma que el mercado chileno deberia haber tenido hace anos.
+            Es la plataforma que el mercado chileno debería haber tenido hace años.
           </p>
           <div className="text-sm text-zinc-600 mt-12">
-            Muller y Perez · 2026
+            Muller y Pérez · 2026
           </div>
         </div>
       </section>
